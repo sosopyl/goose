@@ -11,3 +11,11 @@ let historyblock = document.querySelector('.historyblock')
 historybutton.addEventListener('click', function(){
     scrolling(historyblock)
 })
+
+
+let importbutton = document.querySelector('.importbutton')
+let importblock = document.querySelector('.importance')
+
+importbutton.addEventListener('click', function(){
+    scrolling(importblock)
+})
